@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin-top: 170px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+section p{
+    color: rgba(58, 53, 65, 0.87);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+section p:last-of-type{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(58, 53, 65, 0.68);;
+    letter-spacing: 0.15px;
+    margin-top: 10px;
+}
+section main div{
+    display: flex;
+    justify-content: flex-end;
+    width: 721.3px;
+}
+section main div img{
+    width: 451.3px;
+}
+footer{
+    background-image: url('/image/Mask.svg');
+    height: 226px;
+    width: 100%;
+}
+footer main{
+    position: relative;
+    display: flex;
+}
+footer main .image1{
+    margin-left: 97.36px;
+    position: absolute;
+}
+footer main .image1 .path2{
+    position: absolute;
+    top: -55px;
+    left: -8px;
+}
+footer main .image1 .path3{
+    position: relative;
+    top: -43px;
+    left: -31px;
+}
+footer main .image2{
+    margin-left: 97.36px;
+    position: absolute;
+    left: 70px;
+    top: 45px;
+}
+footer main .image2 .image2-path{
+    position: relative;
+    width: 21.23px;
+    height: 29.05px;
+}
+footer main .image2 .image2-path2{
+    position: absolute;
+    width: 32.28px;
+    height: 81.45px;
+    top: -35px;
+    left: -5px;
+}
+footer main .image2 .image2-path3{
+    position: relative;
+    width: 12.29px;
+    height: 88.27px;
+    top: -26px;
+    left: -21px
+}
